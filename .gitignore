@@ -1,0 +1,68 @@
+# ------------------------------
+# 📦 ENTORNO VIRTUAL
+# ------------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ------------------------------
+# 🧠 ARCHIVOS DE PYTHON
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# ------------------------------
+# 📊 ARCHIVOS DE DATOS
+# ------------------------------
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+
+# Mantener estructura de la carpeta data
+!data/.gitkeep
+
+# ------------------------------
+# 📝 NOTEBOOKS
+# ------------------------------
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert/
+
+# ------------------------------
+# 🌐 STREAMLIT
+# ------------------------------
+.streamlit/
+
+# ------------------------------
+# ⚙ ARCHIVOS DEL SISTEMA
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# 🧪 LOGS Y SALIDAS TEMPORALES
+# ------------------------------
+*.log
+logs/
+*.tmp
+*.temp
+
+# ------------------------------
+# 🎨 ENTORNOS DE EDITOR
+# ------------------------------
+.vscode/
+.idea/
+
+# ------------------------------
+# 🔒 ARCHIVOS SENSIBLES
+# ------------------------------
+*.env
+*.key
+*.secret
+*.token
