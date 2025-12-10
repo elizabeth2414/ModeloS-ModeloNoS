@@ -11,10 +11,6 @@ __pycache__/
 *.pdb
 *.pkl
 
-data/*
-!data/academic_performance_master.csv      # <-- EL ARCHIVO QUE SI QUEREMOS SUBIR
-!data/.gitkeep
-
 .ipynb_checkpoints/
 *.ipynb_convert/
 *.nbconvert/
